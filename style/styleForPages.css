@@ -1,0 +1,121 @@
+@font-face {
+    font-family: GameofThronesKG; /* Имя шрифта */
+    src: url(../fonts/GameofThronesKG.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+    font-family: GameofThronesKG;
+    padding: 0;
+    margin: 10px;
+    background-color: #19416a;
+}
+header {
+    margin-top: 10px;
+    font-size: 2em;
+    height: 2em;
+    background-color: #bdd1ff;
+}
+h1 {
+    margin-top: 0;
+}
+p {
+    font-size: 12px;
+    letter-spacing: 7px;
+}
+main {
+    background-color: #7182a4;
+}
+.containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img {
+    margin: 10px;
+    width: 450px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e5f33;
+    height: 2.5em;
+
+}
+
+/* Style for close button */
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 0.5px solid whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+button.bott:hover,
+button.bott:focus{
+-webkit-animation: linear 1.2s light infinite;
+-moz-animation: linear 1.2s light infinite;
+-o-animation: linear 1.2s light infinite;
+animation: linear 1.2s light infinite;
+}
+@-webkit-keyframes light{
+0%   { color: #ddd; text-shadow: 0px -1px 0px #000; }
+50%   { color: #fff; text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff; }
+100% { color: #ddd; text-shadow: 0px -1px 0px #000; }
+}
+@-moz-keyframes light{
+0%   { color: #ddd; text-shadow: 0px -1px 0px #000; }
+50%   { color: #fff; text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff; }
+100% { color: #ddd; text-shadow: 0px -1px 0px #000; }
+}
+@-o-keyframes light{
+0%   { color: #ddd; text-shadow: 0px -1px 0px #000; }
+50%   { color: #fff; text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff; }
+100% { color: #ddd; text-shadow: 0px -1px 0px #000; }
+}
+@keyframes light{
+0%   { color: #ddd; text-shadow: 0px -1px 0px #000; }
+50%   { color: #fff; text-shadow: 0px -1px 0px #444, 0px 0px 5px #ffd, 0px 0px 8px #fff; }
+100% { color: #ddd; text-shadow: 0px -1px 0px #000; }
+}
+button.bott:active{
+color: #fff;
+text-shadow: 0px -1px 0px #444,0px 0px 5px #ffd,0px 0px 8px #fff;
+box-shadow: 0px 1px 0px #666,0px 2px 0px #444,0px 2px 2px rgba(0, 0, 0, .9);
+-webkit-transform: translateY(3px);
+-moz-transform: translateY(3px);
+-o-transform: translateY(3px);
+transform: translateY(3px);
+-webkit-animation: none;
+-moz-animation: none;
+-o-animation: none;
+animation: none;
+}
+
+.material-icons {
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 24px;  /* Preferred icon size */
+display: inline-block;
+line-height: 1;
+text-transform: none;
+letter-spacing: normal;
+word-wrap: normal;
+white-space: nowrap;
+direction: ltr;
+
+/* Support for all WebKit browsers. */
+-webkit-font-smoothing: antialiased;
+/* Support for Safari and Chrome. */
+text-rendering: optimizeLegibility;
+
+/* Support for Firefox. */
+-moz-osx-font-smoothing: grayscale;
+
+/* Support for IE. */
+font-feature-settings: 'liga';
+}
